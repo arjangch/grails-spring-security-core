@@ -22,7 +22,7 @@ under the License.
 
 The Spring Security plugin supports several approaches to authentication.
 
-The default approach stores users and roles in your database, and uses an HTML login form which prompts the user for a username and password. The plugin also supports other approaches as described in the sections below, as well as add-on plugins that provide external authentication providers such as https://grails.org/plugin/spring-security-ldap[LDAP], and single sign-on using https://grails.org/plugin/spring-security-cas[CAS]
+The default approach stores users and roles in your database, and uses an HTML login form which prompts the user for a username and password. The plugin also supports other approaches as described in the sections below, as well as add-on plugins that provide external authentication providers such as https://apache.github.io/grails-spring-security/snapshot/ldap-plugin/guide/index.html[LDAP], and single sign-on using https://apache.github.io/grails-spring-security/snapshot/cas-plugin/guide/index.html[CAS]
 
 include::authentication/basicAndDigestAuth.adoc[]
 include::authentication/x509.adoc[]
