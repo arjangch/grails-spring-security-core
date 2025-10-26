@@ -101,7 +101,7 @@ You can customize these messages by setting the corresponding property in `appli
 grails.plugin.springsecurity.errors.login.locked = "None shall pass."
 ----
 
-You can use this functionality to manually lock a user's account or expire the password, but you can automate the process. For example, use the https://grails.org/plugin/quartz[Quartz plugin] to periodically expire everyone's password and force them to go to a page where they update it. Keep track of the date when users change their passwords and use a Quartz job to expire their passwords once the password is older than a fixed max age.
+You can use this functionality to manually lock a user's account or expire the password, but you can automate the process. For example, use the https://apache.github.io/grails-quartz/latest/guide/index.html[Quartz plugin] to periodically expire everyone's password and force them to go to a page where they update it. Keep track of the date when users change their passwords and use a Quartz job to expire their passwords once the password is older than a fixed max age.
 
 Here's an example for a password expired workflow. You'd need a simple action to display a password reset form (similar to the login form):
 
